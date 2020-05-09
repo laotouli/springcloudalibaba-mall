@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 39.101.139.191:8848
+    alicloud:
+      access-key:
+      secret-key:
+      oss:
+        endpoint: oss-cn-zhangjiakou.aliyuncs.com
+server:
+  port: 7090

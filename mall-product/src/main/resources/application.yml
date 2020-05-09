@@ -1,0 +1,34 @@
+spring:
+  datasource:
+    username:
+    password:
+    url: jdbc:mysql://39.101.139.191:3306/mall_pms
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      minimum-idle: 3
+      maximum-pool-size: 10
+      max-lifetime: 30000
+      connection-test-query: SELECT 1
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 39.101.139.191:8848
+#    alicloud:
+#      access-key:
+#      secret-key:
+#      oss:
+#        endpoint:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+
+server:
+  port: 7040

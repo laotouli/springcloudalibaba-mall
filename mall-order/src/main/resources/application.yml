@@ -1,0 +1,14 @@
+server:
+  port: 7030
+spring:
+  datasource:
+    username:
+    password:
+    url: jdbc:mysql://39.101.139.191:3306/mall_oms
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
