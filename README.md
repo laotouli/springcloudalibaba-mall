@@ -1,0 +1,3 @@
+# springcloudalibaba-mall
+主要使用SpringCloudAlibaba和SpringBoot开发的分布式商城后台管理系统，文件上传使用的是阿里云的OOS。
+算是最近学习的一次总结，后续将继续更新，商城的前台展示以及用户服务。
