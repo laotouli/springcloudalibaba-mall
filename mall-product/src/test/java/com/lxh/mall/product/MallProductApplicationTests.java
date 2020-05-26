@@ -28,24 +28,5 @@ public class MallProductApplicationTests {
         System.out.println("success...............");
     }
 
-//    @Test
-//    public void testUpload() throws FileNotFoundException {
-//        // Endpoint以杭州为例，其它Region请按实际情况填写。
-//        String endpoint = "oss-cn-zhangjiakou.aliyuncs.com";
-//// 云账号AccessKey有所有API访问权限，建议遵循阿里云安全最佳实践，创建并使用RAM子账号进行API访问或日常运维，请登录 https://ram.console.aliyun.com 创建。
-//        String accessKeyId = "LTAI4GJJC6jnqCLFX7mnjhjQ";
-//        String accessKeySecret = "wv7Z0JZOLNA8Zo0b5jhyY7WbqJiahY";
-//
-//// 创建OSSClient实例。
-//        OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
-//
-//// 上传文件流。
-//        InputStream inputStream = new FileInputStream("/Users/lixiuhu/Desktop/1587034730.jpg");
-//        ossClient.putObject("springcloudalibaba-mall", "1587034730.jpg", inputStream);
-//
-//// 关闭OSSClient。
-//        ossClient.shutdown();
-//        System.out.println("success.....");
-//    }
 
 }
